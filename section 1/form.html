@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+
+<body>
+    <h1>Student Admission Form</h1>
+    <form>
+
+        <label for="">Student Name </label>
+        <input type="text" required minlength="4">
+        <br><br>
+        <label for="">Email address</label>
+        <input type="email" required minlength="5">
+        <br><br>
+        <label for="">Contact</label>
+        <input type="number" required minlength="7">
+        <br><br>
+        <label for="">Address</label>
+        <textarea cols="5" rows="6"></textarea>
+        <br><br>
+        <label for="">Select Course</label>
+        
+            <select>
+                <option>Java</option>
+            <option>Mern</option>
+            <option>C++</option>
+            <option>Data Analytics</option>
+            </select>
+            <br><br>
+            <label for="">Select college</label>
+            <input type="text" list="college">
+            <datalist id="college">
+
+                <option>BBDU</option>
+                <option>It</option>
+                <option>SRMU</option>
+            </datalist>
+            <br><br>
+            <label for="">gender</label>
+
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br><br>
+            <input type="checkbox" required>
+            <label for=""> I accept terms and condition</label>
+            <br><br>
+            <details>
+                <summary> Terms and condition</summary>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Eius, voluptates culpa ad eaque ea repellendus magni incidunt porro. <br> Modi numquam blanditiis laboriosam alias minus optio ipsa asperiores ipsam recusandae quidem.</p>
+            
+            </details>
+
+
+            <br><br>
+
+
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+</body>
+
+</html>
