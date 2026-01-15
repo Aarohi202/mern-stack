@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Movie Ticket Booking</h1>
+    <form>
+        <label for="">Name</label>
+        <input type="text" required minlength="4">
+        <br><br>
+        <label for="">Email</label>
+        <input type="email" required minlength="5">
+        <br><br>
+        <label for="">Phone Number</label>
+        <input type="number" required minlength="7">
+        <br><br>
+        <label for="">Select Movie</label>
+        <select>
+            <option>RRR</option>
+            <option>Dangal</option>
+            <option>Jawan</option>
+            <option>Avtar</option>
+        </select><br><br>
+        <label for="">Select Theater</label>
+        <input type="text" list="theater">
+        <datalist id="theater">
+            <option>PVR</option>
+            <option>Cinepolis</option>
+            <option>Wave Cinemas</option>
+        </datalist><br><br>
+        <label for="">Date of booking</label>
+        <input type="date" required><br><br>
+        <label for="">Showtime</label>
+        <input type="radio" name="showtime">Morning
+        <input type="radio" name="showtime">Afternoon
+        <input type="radio" name="showtime">Evening<br><br>
+        <label for="">No of tickets</label>
+        <input type="number" required>
+        <br><br>
+        <label for=""> Select Seat</label>
+        <select>
+            <option>Front</option>
+            <option>Middle</option>
+            <option>Back</option>
+        </select>
+        <br><br>
+        <label for=""> total price</label>
+        <input type="number" required>
+        <br><br>
+        <label for=""> Payment Method</label>
+        <select>
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+            <option>Net Banking</option>
+            <option>UPI</option>
+        </select>
+
+        <br><br>
+        <input type="checkbox" required>
+        <label for=""> I agree to the terms and conditions</label>
+        <br><br>
+        <details>
+            <summary>Terms and Conditions</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime totam ex minus harum dolor iusto
+                quos rerum aperiam commodi!</p>
+        </details>
+        <br>
+        <button type="submit">Book Ticket</button>
+</body>
+</html>
